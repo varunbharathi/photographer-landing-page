@@ -1,0 +1,29 @@
+img{
+    height: 500px;
+    width: 30%;
+    margin: calc(10%/6);
+    
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1a1818;
+    width: 20%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    margin-bottom: calc(10%/6);
+
+    
+}
+body{
+    background: url("https://images.unsplash.com/photo-1577563572782-0b2a67d94fac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size:cover;
+    margin: 0 auto;
+}
